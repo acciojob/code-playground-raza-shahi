@@ -13,7 +13,7 @@ const App = () => {
       {isLogin ? <h2>Logged in, Now you can enter Playground</h2> : <h2>You are not authenticated, Please login first</h2>}
 
       <ul>
-        <li><Link to='/play-ground'>Play Ground</Link></li>
+        <li><Link to='/play-ground'>PlayGround</Link></li>
         <li><Link to='/login'>Login</Link></li>
       </ul>
 
