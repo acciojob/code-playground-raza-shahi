@@ -10,7 +10,7 @@ const Login = ({isLogin,setIsLogin}) => {
     <div>
         <h3>Login</h3>
         <button onClick={handleLogin}>
-            {isLogin ? "Logout" : "Login"}
+            {isLogin ? "Logout" : "Log In"}
         </button>
     </div>
   )

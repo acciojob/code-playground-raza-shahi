@@ -10,7 +10,7 @@ const App = () => {
   const [isLogin, setIsLogin] = useState(false);
   return (
     <div className="main-container">
-      {isLogin ? <h2>Logged in, Now you can enter playground</h2> : <h2>You are not authenticaed, Login first</h2>}
+      {isLogin ? <h2>Logged in, Now you can enter Playground</h2> : <h2>You are not authenticated, Please login first</h2>}
 
       <ul>
         <li><Link to='/play-ground'>Play Ground</Link></li>
